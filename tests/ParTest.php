@@ -4,6 +4,7 @@ require '../Par.php';
 
 class CalculatorTest extends TestCase
 {
+    
     private $par;
  
     protected function setUp(): void
