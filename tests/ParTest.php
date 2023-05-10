@@ -18,25 +18,25 @@ class CalculatorTest extends TestCase
  
     public function test1(): void
     {
-        $result = $this->calculator->par(10);
+        $result = $this->par->par(10);
         $this->assertEquals(true, $result);
     }
  
     public function test2(): void
     {
-        $result = $this->calculator->par(23);
+        $result = $this->par->par(23);
         $this->assertEquals(false, $result);
     }
  
     public function test3(): void
     {
-        $result = $this->calculator->par(11);
+        $result = $this->par->par(11);
         $this->assertEquals(false, $result);
     }
  
     public function test4(): void
     {
-        $result = $this->calculator->par(1235344);
+        $result = $this->par->par(1235344);
         $this->assertEquals(true, $result);
     }
  
