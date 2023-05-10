@@ -42,7 +42,7 @@ class CalculatorTest extends TestCase
  
     public function test5(): void
     {
-        $result = $this->calculator->par(1284);
+        $result = $this->par->par(1284);
         $this->assertEquals(true, $result);
     }
  
