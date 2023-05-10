@@ -1,7 +1,6 @@
 {
     "name": "hectorgarcia/practica5.3",
     "description": "Práctica de CD/CI con PHP  en github actions",
-    "test": "tests/ParTest.php",
     "require": {
         "php": "^7.4.0"
     },
