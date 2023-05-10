@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-require 'Par.php';
+require '../Par.php';
 
 class CalculatorTest extends TestCase
 {
