@@ -1,4 +1,7 @@
 {
+    "name": "Practica5.3",
+    "description": "Práctica de CD/CI con PHP  en github actions",
+
     "require": {
         "php": "^7.4.0"
     },
